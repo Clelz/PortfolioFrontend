@@ -15,7 +15,7 @@
     <!--Titulo-->
     <title> Claudia Santos | Portfolio </title>
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="imágenes/icono arg prog.png">
+    <link rel="icon" type="image/x-icon" href="varios/icono arg prog.png">
   </head>
 <header>
     <!-- Barra de navegacion -->
@@ -26,7 +26,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbar-toggler">
             <a class="navbar-brand" href="#">
-                <img src="imágenes/icono arg prog.png" width="50" alt="icono argentina programa">
+                <img src="varios/icono arg prog.png" width="50" alt="icono argentina programa">
             </a>
             <ul class="navbar-nav d-flex justify-content-center aligne-items-center">
               <li class="nav-item">
@@ -41,42 +41,102 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
               </li>
-              <button class="btn btn-outline-success float-end" type="submit">Login</button>
             </ul>
           </div>
+            <button class="btn btn-outline-success float-end" type="submit">Login</button>
         </div>
     </nav>
 </header>
 <body>
   <!-- Seccion principal-->
-  <section class="container-fluid">
+  <section class="card container-fluid">
     <div class="containter">
-      <div id="profile-background" style="height: 50%;">
-        <img src="imágenes/web-developer-newsletter-coder-stefan-iordache.jpg" class="object-fit-none border rounded img-fluid" alt="https://wallpapercave.com/full-stack-wallpapers#google_vignette imagen de stefan iordache">
+      <div id="profile-background">
+        <img src="varios/web-developer-newsletter-coder-stefan-iordache.jpg" class="object-fit-none border rounded img-fluid" alt="https://wallpapercave.com/full-stack-wallpapers#google_vignette imagen de stefan iordache">
       </div>
-      <div id="info" style="padding: 16px">
-        <div id="info-img">
-          <img src="imágenes/Claudia.jpg" class="profile-image rounded-circle" alt="imagen de perfil">
-          <h2>Claudia E. Santos</h2>
-        </div>
+    </div>
+    <div class="row" id="info" style="padding: 16px">
+      <div class="col-4" id="info-img" style= "text-align: center;">
+        <img src="varios/Claudia.jpg" class="profile-image rounded-circle" alt="imagen de perfil">
+        <h2>Claudia E. Santos</h2>
+        <p> Diseñadora Web Fullstack Jr. </p>
       </div>
-      <div>
-        <h2>Perfil</h2>
-        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="col-8">
+        <h2> Sobre mí </h2>
+        <p style="text-align: justify;"> Siempre estoy dispuesta a trabajar en equipo, tengo buen manejo de relaciones interpersonales siendo colaborativa y solidaria. Me adapto muy bien a los diferentes ámbitos laborales buscando superarme en todo lo que hago, aprendiendo y progresando.
+          Mi objetivo profesional es seguir desarrollando mis habilidades y experiencias dentro de un equipo que comparta mis valores, entre ellos considero fundamental trabajar con compromiso, responsabilidad y objetivos claros. </p>
       </div>
     </div>
   </section>
   <!-- Seccion Experiencia -->
-  <section class="container-fluid border-top">
-    <div class="info">
-      <div class="Experiencia">
-        <h2> Experiencia </h2>
+  <section class="card container-fluid border-top">
+    <div class="experiencia-educacion">
+      <h2> Experiencia </h2>
+    </div>
+    <div class="card mb-3" style="background-color:antiquewhite;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="varios/images.jfif" class="img-fluid border rounded" alt="globo aerostático">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> Jardín de Infantes Dulce Cielo | Villa Gobernador Gálvez </h5>
+            <p class="card-text"> 2022 | Tutora de inglés para niños de 3 a 5 años </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
       </div>
-      <div>
-
+    </div>
+    <div class="card mb-3" style="background-color:antiquewhite;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="varios/descarga.png" class="img-fluid border rounded" alt="Logo Poder Judicial de Santa Fe">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"> Tribunales Provinciales de la ciudad de Rosario | Poder Judicial de Santa Fe </h5>
+            <p class="card-text"> 2015 - 2022 | Pasante | Juzgado de 1° Instancia de Distrito en lo Civil y Comercial de la 11° Nominación de Rosario </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+<!--Sección Educación-->
+<section class="card container-fluid border-top">
+  <div class="experiencia-educacion">
+    <h2> Educación </h2>
+  </div>
+  <div class="card mb-3" style="background-color:antiquewhite;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="varios/LsN_fbWr_400x400.jpg" class="img-fluid border rounded" alt="Fder">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"> Facultad de Derecho | Universidad Nacional de Rosario</h5>
+          <p class="card-text"> 2013 - Actualidad | Abogacía </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="background-color:antiquewhite;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="varios/translate-110777_640.jpg" class="img-fluid object-fit-fill border rounded" style="height: 100%;" alt="Translate">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"> Traductorado Literario y Tecnico-científico en Ingés | ISP N° 28 "Olga Cossettini" | Rosario </h5>
+          <p class="card-text"> 2023 - Actualidad | Traducción </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sección aptitudes-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
